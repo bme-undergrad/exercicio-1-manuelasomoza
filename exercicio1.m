@@ -17,7 +17,7 @@ imax = 20;
 % calculo do erro relativo
         e = abs((x_max(ii+1) - x_max(ii)) / x_max(ii+1));
 
-        if e < Es
+        if e < es
             t = x_max(ii+1);
             return
         end
