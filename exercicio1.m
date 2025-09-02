@@ -1,17 +1,11 @@
-function t = exercicio1(func,x0)
+function t = exercicio1(func,func_d,x0)
 
 % nao alterar: inicio
-es = 1;
+es = 0.01;
 imax = 20;
 % nao alterar: fim
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% digite seu codigo aqui
-function t = exercictiol(func, func_d, x0)
-
-    Es = 0.01; % tolerância = 1%
-    imax = 20;
 
     x_max = zeros(imax,1);
     x_max(1) = x0;
@@ -31,6 +25,7 @@ function t = exercictiol(func, func_d, x0)
 
     t = x_max(end);
 end
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
